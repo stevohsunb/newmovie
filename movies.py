@@ -104,10 +104,10 @@ def convert_decimal(value):
 def get_db_connection():
     try:
         conn = mysql.connector.connect(
-            host=os.getenv("DB_HOST", "localhost"),
-            user=os.getenv("DB_USER", "root"),
-            password=os.getenv("DB_PASSWORD", ""),
-            database=os.getenv("DB_NAME", "movieverse_db"),
+            host=os.getenv("DB_HOST", "sql12.freesqldatabase.com"),
+            user=os.getenv("DB_USER", "sql12771373"),
+            password=os.getenv("DB_PASSWORD", "s5xLzgwGbt"),
+            database=os.getenv("DB_NAME", "sql12771373"),
             connection_timeout=10
         )
         return conn
