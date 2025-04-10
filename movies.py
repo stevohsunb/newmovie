@@ -7,10 +7,10 @@ from datetime import datetime
 def get_db_connection():
     try:
         conn = mysql.connector.connect(
-            host='localhost',
-            user='root',
-            password='',
-            database='movieverse_db'
+            host='sql12.freesqldatabase.com',
+            user='sql12771373',
+            password='s5xLzgwGbt',
+            database='sql12771373'
         )
         return conn
     except mysql.connector.Error as err:
